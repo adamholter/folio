@@ -1,0 +1,143 @@
+{
+ "input_seconds": 600.0,
+ "device": "cuda",
+ "cpus": 2,
+ "runs": {
+  "baseline": {
+   "wall_seconds": 1296.208516063,
+   "model_seconds": 465.1604562350003,
+   "temporary_peak_bytes": null,
+   "output_sha256": "3de62b4dbe3055d02e2344d68e4e45d94c1ccb97447d020bf9db1056193da320",
+   "seconds_per_audio_minute": 129.6208516063,
+   "distance_from": "baseline",
+   "distance": {
+    "identical_samples": true,
+    "residual_db": null,
+    "log_spectral_distance_db": 0.0,
+    "largest_band_shift_db": 0.0,
+    "speech_level_shift_db": 0.0,
+    "pause_level_shift_db": 0.0
+   }
+  },
+  "reference": {
+   "wall_seconds": 737.8897423469998,
+   "model_seconds": 467.3338101909999,
+   "temporary_peak_bytes": 3542370680,
+   "output_sha256": "3de62b4dbe3055d02e2344d68e4e45d94c1ccb97447d020bf9db1056193da320",
+   "seconds_per_audio_minute": 73.78897423469998,
+   "distance_from": "baseline",
+   "distance": {
+    "identical_samples": true,
+    "residual_db": null,
+    "log_spectral_distance_db": 0.0,
+    "largest_band_shift_db": 0.0,
+    "speech_level_shift_db": 0.0,
+    "pause_level_shift_db": 0.0
+   }
+  },
+  "high": {
+   "wall_seconds": 635.7765524940005,
+   "model_seconds": 250.8822931359996,
+   "temporary_peak_bytes": 3427202252,
+   "output_sha256": "e2a1f7947f8aabe7073a0a208ac0fd167899ed2615e8871ee3cc529931f75dc7",
+   "seconds_per_audio_minute": 63.577655249400046,
+   "distance_from": "baseline",
+   "distance": {
+    "identical_samples": false,
+    "residual_db": -72.90950596963778,
+    "log_spectral_distance_db": 0.14170567336344952,
+    "largest_band_shift_db": 0.00037234646965367756,
+    "band_shift_db": {
+     "63-125": -0.00021037808763462113,
+     "125-250": 5.750961862075954e-05,
+     "250-500": 6.756722200166268e-05,
+     "500-1000": 3.583325554477601e-05,
+     "1000-2000": -0.00024110233855776568,
+     "2000-4000": -4.3826863820061254e-05,
+     "4000-8000": 0.00010454504679095335,
+     "8000-16000": 0.00037234646965367756
+    },
+    "speech_level_shift_db": -3.009835897260176e-07,
+    "pause_level_shift_db": -0.0006338285011996336
+   }
+  },
+  "balanced": {
+   "wall_seconds": 616.9038615870004,
+   "model_seconds": 203.82274165300078,
+   "temporary_peak_bytes": 3427202238,
+   "output_sha256": "aafd230038b09ad08ee530817566d36711b45b4a1fb1779df27718fbf3b9b220",
+   "seconds_per_audio_minute": 61.69038615870004,
+   "distance_from": "baseline",
+   "distance": {
+    "identical_samples": false,
+    "residual_db": -32.55909168913757,
+    "log_spectral_distance_db": 5.843311410677407,
+    "largest_band_shift_db": 0.49793827402191204,
+    "band_shift_db": {
+     "63-125": 0.005178846240215163,
+     "125-250": -0.0017624560318486473,
+     "250-500": 0.012065433657473186,
+     "500-1000": -0.014951269624343688,
+     "1000-2000": -0.0506769544442492,
+     "2000-4000": -0.12568296004606846,
+     "4000-8000": 0.16207535792155914,
+     "8000-16000": 0.49793827402191204
+    },
+    "speech_level_shift_db": 1.0514138769543795e-05,
+    "pause_level_shift_db": 0.030292407064820243
+   }
+  },
+  "fast": {
+   "wall_seconds": 619.2194503109995,
+   "model_seconds": 158.99088025699984,
+   "temporary_peak_bytes": 3427202242,
+   "output_sha256": "c92ccb977896f67e04adb3027e29de6fb732080c624713a3a0c64fff5c954c7d",
+   "seconds_per_audio_minute": 61.921945031099945,
+   "distance_from": "baseline",
+   "distance": {
+    "identical_samples": false,
+    "residual_db": -28.64573551903153,
+    "log_spectral_distance_db": 6.556149414472658,
+    "largest_band_shift_db": 2.368139630342627,
+    "band_shift_db": {
+     "63-125": -0.006883149031147165,
+     "125-250": -0.02425520814564671,
+     "250-500": 0.013229307875786899,
+     "500-1000": 0.013905643307739728,
+     "1000-2000": 0.04673358940129227,
+     "2000-4000": 0.07946282156932319,
+     "4000-8000": 0.4510211440296383,
+     "8000-16000": -2.368139630342627
+    },
+    "speech_level_shift_db": -3.637557184964918e-05,
+    "pause_level_shift_db": 0.1076849376071596
+   }
+  },
+  "draft": {
+   "wall_seconds": 602.3657304949993,
+   "model_seconds": 117.67012424699988,
+   "temporary_peak_bytes": 3427202242,
+   "output_sha256": "6434d37daebbd09b46b4060fbb5b3fe9cdfdda197025e984e93c3dbd797848a1",
+   "seconds_per_audio_minute": 60.23657304949993,
+   "distance_from": "baseline",
+   "distance": {
+    "identical_samples": false,
+    "residual_db": -25.445331475780314,
+    "log_spectral_distance_db": 7.079713611718475,
+    "largest_band_shift_db": 1.9032945818958005,
+    "band_shift_db": {
+     "63-125": -0.002807246264086289,
+     "125-250": -0.010437678116129766,
+     "250-500": 0.0284687781104646,
+     "500-1000": 0.04626161929888478,
+     "1000-2000": 0.1248762268917264,
+     "2000-4000": 0.31421800979131176,
+     "4000-8000": -1.3465131228160574,
+     "8000-16000": -1.9032945818958005
+    },
+    "speech_level_shift_db": 3.754557343732647e-05,
+    "pause_level_shift_db": 0.0729457350439395
+   }
+  }
+ }
+}

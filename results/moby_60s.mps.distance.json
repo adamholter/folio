@@ -1,0 +1,56 @@
+{
+ "24000": {
+  "identical_samples": false,
+  "residual_db": -33.15,
+  "log_spectral_distance_db": 5.54,
+  "largest_band_shift_db": 0.4,
+  "speech_level_shift_db": 0.0,
+  "pause_level_shift_db": 0.05,
+  "bands": {
+   "63-125": 0.02,
+   "125-250": 0.0,
+   "250-500": 0.01,
+   "500-1000": -0.03,
+   "1000-2000": -0.05,
+   "2000-4000": -0.15,
+   "4000-8000": 0.08,
+   "8000-16000": 0.4
+  }
+ },
+ "16000": {
+  "identical_samples": false,
+  "residual_db": -30.39,
+  "log_spectral_distance_db": 6.37,
+  "largest_band_shift_db": 2.74,
+  "speech_level_shift_db": 0.0,
+  "pause_level_shift_db": 0.12,
+  "bands": {
+   "63-125": 0.01,
+   "125-250": -0.01,
+   "250-500": 0.0,
+   "500-1000": 0.01,
+   "1000-2000": 0.04,
+   "2000-4000": 0.03,
+   "4000-8000": 0.27,
+   "8000-16000": -2.74
+  }
+ },
+ "8000": {
+  "identical_samples": false,
+  "residual_db": -25.87,
+  "log_spectral_distance_db": 7.01,
+  "largest_band_shift_db": 2.2,
+  "speech_level_shift_db": 0.0,
+  "pause_level_shift_db": 0.05,
+  "bands": {
+   "63-125": 0.03,
+   "125-250": -0.01,
+   "250-500": 0.02,
+   "500-1000": 0.03,
+   "1000-2000": 0.1,
+   "2000-4000": 0.29,
+   "4000-8000": -1.55,
+   "8000-16000": -2.2
+  }
+ }
+}
